@@ -2,6 +2,7 @@ import requests
 import sys
 
 try:
+    #sys.argv is the placeholder for the inputs
     filePath = sys.argv[1]
     username = sys.argv[2]
     lastPassword = sys.argv[3]
@@ -14,7 +15,7 @@ try:
     if lastPassword == "-n":
         lastPassword = ""
 
-
+    #Tries to brute-force password with a wordlist
     with open(filePath, 'r', encoding='latin-1') as wordList:
         for word in wordList:
             word = word.strip()
