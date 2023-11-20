@@ -5,7 +5,7 @@ try:
     #sys.argv is the placeholder for the inputs
     filePath = sys.argv[1] #File path way
     username = sys.argv[2] #Login username
-    lastPassword = sys.argv[3] #This if you know the last parts of the password for example {wordlist}{lastPassword}
+    lastPassword = sys.argv[3] #This if you know the last parts of the password for example '{wordlist}{lastPassword}' if you use '-n' it wont add any last parts to brute-force with
     url = sys.argv[4] #This is the url page that the login should be brute-forced
     cUsername = str(sys.argv[5]) #This is the username credential variable on the html page
     cPassword = str(sys.argv[6]) #This is the password credential variable on the html page
