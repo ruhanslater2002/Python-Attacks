@@ -50,5 +50,5 @@ try:
                 break
 
 except:
-    print("Syntax: (file path) (Username) (last known Password, '-n' = Nothing) (url) '(Login fail msg)'") #Command syntax in a terminal
+    print("Syntax: (file path) (Username) (last known Password, '-n' = Nothing) (url) (Username credential) (Password credential) (Login button credential) '(Login fail msg)'") #Command syntax in a terminal
     #Example: python main.py /usr/share/wordlists/rockyou.txt admin -n http://192.168.10.5/dvwa/login.php/ username password 'Login' 'Login failed'
