@@ -50,4 +50,4 @@ try:
                 break
 
 except:
-    print("Syntax: (file path) (Username) (last known Password, '-n' = Nothing) (url) '(Login fail msg)'")
+    print("Syntax: (file path) (Username) (last known Password, '-n' = Nothing) (url) '(Login fail msg)'") #Command syntax in a terminal
